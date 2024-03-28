@@ -5,7 +5,7 @@ int ledPinGreen = 5; //Pino do LED VERDE
 
 int sensorPin = 3; //ENTRADA PINO SENSOR
 
-int leitura; // VARIANVEL MUDANCA DE ESTADO
+int leitura; // VARIAVEL MUDANÇA DE ESTADO
 
 void setup() {
  
