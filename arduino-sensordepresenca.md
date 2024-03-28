@@ -1,7 +1,10 @@
 
 int ledPinRed = 6; //Pino do LED VERMELHO
+
 int ledPinGreen = 5; //Pino do LED VERDE
+
 int sensorPin = 3;
+
 int leitura;
 
 void setup() {
