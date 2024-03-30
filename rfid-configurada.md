@@ -17,6 +17,7 @@ const int pinoLedVerde = 3; //PINO DIGITAL REFERENTE AO LED VERDE
 
 const int pinoLedVermelho = 2; //PINO DIGITAL REFERENTE AO LED VERMELHO
 
+
 void setup(){
 
   Wire.begin(); //INICIALIZA A BIBLIOTECA WIRE
@@ -29,16 +30,18 @@ void setup(){
   
   pinMode(pinoLedVermelho, OUTPUT); //DEFINE O PINO COMO SAÍDA
 
-    digitalWrite(pinoLedVerde, LOW); //LED INICIA DESLIGADO
+  digitalWrite(pinoLedVerde, LOW); //LED INICIA DESLIGADO
     
   digitalWrite(pinoLedVermelho, LOW); //LED INICIA DESLIGADO
 }
+
 
 void loop() {
 
   leituraRfid(); //CHAMA A FUNÇÃO RESPONSÁVEL PELA VALIDAÇÃO DA TAG RFID
   
 }
+
 
 //FUNÇÃO DE VALIDAÇÃO DA TAG RFID
 
