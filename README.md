@@ -7,5 +7,5 @@ curso de TDS Senai Ctm Maringá
 
 [Video captura tag](https://www.youtube.com/watch?v=_lWA78C_Hbc&t=11s)
 
-[CAPTURA TAG SKETCH](https://blogmasterwalkershop.com.br/arduino/arduino-importando-bibliotecas-para-a-ide)
+[IMPORTANDO BIBLIOTECA PARA O ARDUINO](https://blogmasterwalkershop.com.br/arduino/arduino-importando-bibliotecas-para-a-ide)
 
