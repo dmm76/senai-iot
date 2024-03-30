@@ -20,25 +20,25 @@ const int pinoLedVermelho = 2; //PINO DIGITAL REFERENTE AO LED VERMELHO
 
 void setup(){
 
-  Wire.begin(); //INICIALIZA A BIBLIOTECA WIRE
+   Wire.begin(); //INICIALIZA A BIBLIOTECA WIRE
   
-  SPI.begin(); //INICIALIZA O BARRAMENTO SPI
+   SPI.begin(); //INICIALIZA O BARRAMENTO SPI
   
-  rfid.PCD_Init(); //INICIALIZA MFRC522
+   rfid.PCD_Init(); //INICIALIZA MFRC522
   
-  pinMode(pinoLedVerde, OUTPUT); //DEFINE O PINO COMO SAÍDA
+   pinMode(pinoLedVerde, OUTPUT); //DEFINE O PINO COMO SAÍDA
   
-  pinMode(pinoLedVermelho, OUTPUT); //DEFINE O PINO COMO SAÍDA
+   pinMode(pinoLedVermelho, OUTPUT); //DEFINE O PINO COMO SAÍDA
 
-  digitalWrite(pinoLedVerde, LOW); //LED INICIA DESLIGADO
+   digitalWrite(pinoLedVerde, LOW); //LED INICIA DESLIGADO
     
-  digitalWrite(pinoLedVermelho, LOW); //LED INICIA DESLIGADO
+   digitalWrite(pinoLedVermelho, LOW); //LED INICIA DESLIGADO
 }
 
 
 void loop() {
 
-  leituraRfid(); //CHAMA A FUNÇÃO RESPONSÁVEL PELA VALIDAÇÃO DA TAG RFID
+   leituraRfid(); //CHAMA A FUNÇÃO RESPONSÁVEL PELA VALIDAÇÃO DA TAG RFID
   
 }
 
@@ -66,8 +66,8 @@ void leituraRfid(){
     (i!=3 ? ":" : "");
   }
 
-  
   strID.toUpperCase();
+  
   
 /***FIM DO BLOCO DE CÓDIGO RESPONSÁVEL POR GERAR A TAG RFID LIDA***/
 
