@@ -33,6 +33,7 @@ void setup(){
    digitalWrite(pinoLedVerde, LOW); //LED INICIA DESLIGADO
     
    digitalWrite(pinoLedVermelho, LOW); //LED INICIA DESLIGADO
+   
 }
 
 
